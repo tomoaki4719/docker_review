@@ -5,4 +5,3 @@ try {
 } catch (PDOException $e) {
     echo '<h1 style="color:red">Failed<br><p>' . $e->getMessage() . '</p>';
 }
-
